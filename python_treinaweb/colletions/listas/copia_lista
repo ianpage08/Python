@@ -1,0 +1,11 @@
+nested_lista = [[1, 2], [3, 4], [5, 6], ['Ola munda'], ['a', 'b']]  # Lista aninhada
+
+
+nova_lista = nested_lista.copy()  # Cria uma cópia da lista aninhada
+
+print("Lista original:", nested_lista)
+print("Cópia da lista:", nova_lista)
+nova_lista.append([7, 8])  # Adiciona uma nova lista aninhada à cópia
+print("Lista original após modificação de append:", nova_lista)
+
+
